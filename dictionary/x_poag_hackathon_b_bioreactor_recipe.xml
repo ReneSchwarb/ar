@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Recipe" max_length="40" name="x_poag_hackathon_b_bioreactor_recipe" type="collection">
+        <element label="Context" max_length="32" name="context" reference="wf_context" type="reference"/>
+        <element label="Current Interaction Point" max_length="32" name="current_interaction_point" reference="x_poag_hackathon_b_interaction_point" type="reference"/>
+        <element label="Current Symbol" max_length="32" name="current_symbol" reference="x_poag_hackathon_b_symbol" type="reference"/>
+        <element label="Current Text" max_length="200" name="current_text" type="string"/>
+        <element label="Current XPos" max_length="20" name="current_xpos" type="decimal"/>
+        <element label="Current YPos" max_length="20" name="current_ypos" type="decimal"/>
+        <element label="Current ZPos" max_length="20" name="current_zpos" type="decimal"/>
+        <element label="Device" max_length="32" name="device" reference="x_poag_hackathon_b_ger_t" type="reference"/>
+        <element display="true" label="Name" max_length="40" name="name" type="string"/>
+        <element label="Next" max_length="40" name="next" type="boolean"/>
+        <element label="Next Phase" max_length="40" name="next_phase" type="boolean"/>
+        <element label="PH" max_length="40" name="ph" type="float"/>
+        <element label="PO2" max_length="40" name="po2" type="float"/>
+        <element label="Public" max_length="40" name="public" type="boolean"/>
+        <element label="Pump 2 Setpoint" max_length="40" name="pump_2_setpoint" type="float"/>
+        <element label="Pump Setpoint" max_length="40" name="pump_setpoint" type="float"/>
+        <element label="Status Text" max_length="200" name="status_text" type="string"/>
+        <element label="Stirrer" max_length="40" name="stirrer" type="float"/>
+        <element label="Stirrer Setpoint" max_length="40" name="stirrer_setpoint" type="float"/>
+        <element label="Temperature" max_length="40" name="temperature" type="integer"/>
+        <element label="Wait Text" max_length="200" name="wait_text" type="string"/>
+        <element attributes="ref_contributions=show_workflow" label="Workflow" max_length="32" name="workflow" reference="wf_workflow" type="reference"/>
+        <index name="index">
+            <element name="current_symbol"/>
+        </index>
+        <index name="index2">
+            <element name="workflow"/>
+        </index>
+        <index name="index3">
+            <element name="context"/>
+        </index>
+        <index name="index4">
+            <element name="current_interaction_point"/>
+        </index>
+        <index name="index5">
+            <element name="device"/>
+        </index>
+    </element>
+</database>

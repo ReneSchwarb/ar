@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="PH History" max_length="40" name="x_poag_hackathon_b_ph_histpry" sizeclass="10000" type="collection">
+        <element label="PH" max_length="40" name="ph" type="float"/>
+        <element label="Recipe" max_length="32" name="recipe" reference="x_poag_hackathon_b_bioreactor_recipe" type="reference"/>
+        <index name="index">
+            <element name="recipe"/>
+        </index>
+    </element>
+</database>

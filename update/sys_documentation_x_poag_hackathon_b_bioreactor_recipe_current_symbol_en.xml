@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="current_symbol" label="Current Symbol" language="en" table="x_poag_hackathon_b_bioreactor_recipe">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>current_symbol</element>
+            <help/>
+            <hint/>
+            <label>Current Symbol</label>
+            <language>en</language>
+            <name>x_poag_hackathon_b_bioreactor_recipe</name>
+            <plural>Current Symbols</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>kevin.mettenberger</sys_created_by>
+            <sys_created_on>2016-03-11 11:07:16</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>5c1fd25a37ca9a00e71698a543990e92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Current Symbol</sys_name>
+            <sys_package display_value="Hackathon Bioreactor" source="x_poag_hackathon_b">fe44c65e378a9a00e71698a543990e44</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Hackathon Bioreactor">fe44c65e378a9a00e71698a543990e44</sys_scope>
+            <sys_update_name>sys_documentation_x_poag_hackathon_b_bioreactor_recipe_current_symbol_en</sys_update_name>
+            <sys_updated_by>kevin.mettenberger</sys_updated_by>
+            <sys_updated_on>2016-03-11 11:07:16</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

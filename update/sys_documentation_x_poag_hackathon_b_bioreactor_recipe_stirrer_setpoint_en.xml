@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="stirrer_setpoint" label="Stirrer Setpoint" language="en" table="x_poag_hackathon_b_bioreactor_recipe">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>stirrer_setpoint</element>
+            <help/>
+            <hint/>
+            <label>Stirrer Setpoint</label>
+            <language>en</language>
+            <name>x_poag_hackathon_b_bioreactor_recipe</name>
+            <plural>Stirrer Setpoints</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>kevin.mettenberger</sys_created_by>
+            <sys_created_on>2016-03-11 19:46:10</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>59d5d86e374e9a00e71698a543990e17</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Stirrer Setpoint</sys_name>
+            <sys_package display_value="Hackathon Bioreactor" source="x_poag_hackathon_b">fe44c65e378a9a00e71698a543990e44</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Hackathon Bioreactor">fe44c65e378a9a00e71698a543990e44</sys_scope>
+            <sys_update_name>sys_documentation_x_poag_hackathon_b_bioreactor_recipe_stirrer_setpoint_en</sys_update_name>
+            <sys_updated_by>kevin.mettenberger</sys_updated_by>
+            <sys_updated_on>2016-03-11 19:46:10</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

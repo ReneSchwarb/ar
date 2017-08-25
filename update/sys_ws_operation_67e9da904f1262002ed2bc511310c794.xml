@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl/>
+        <http_method>GET</http_method>
+        <name>getMarker</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+	
+	var queryParams = request.queryParams; 
+    var recipe_Execution_Id = queryParams.recipe_id; //false 
+	var recipe_exec = new GlideRecord('x_poag_hackathon_b_recipe_execution');
+	recipe_exec.get(recipe_Execution_Id[0]);
+	
+	
+	var markerRec = new GlideRecord('x_poag_hackathon_b_marker');
+	markerRec.addQuery('device', recipe_exec.device_instance.device.sys_id);
+	markerRec.query();   // Issue the query to the database to get relevant records
+	
+	
+	var markerList = {};
+	markerList.type = 'marker';
+	markerList.count = markerRec.getRowCount();
+	markerList.status = recipe_exec.device_instance.device.getDisplayValue();
+	markerList.markers = [];
+	
+    while (markerRec.next()) {   
+	    var result = {};
+		result.type = 'marker';
+		result.symbol = markerRec.symbol.id+'';
+		result.text = markerRec.name.getDisplayValue();
+		result.statustext = '';
+		result.xpos = markerRec.xpos.getDisplayValue();
+		result.ypos = markerRec.ypos.getDisplayValue();
+		result.zpos = markerRec.zpos.getDisplayValue();
+		result.positionscale = markerRec.positionscale.getDisplayValue();
+		result.sizescale = markerRec.sizescale.getDisplayValue();
+		markerList.markers.push(result);
+	}
+	
+
+	return markerList;
+	
+
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_poag_hackathon_b/bioreactor/getMarker</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/getMarker</relative_path>
+        <request_example/>
+        <requires_acl_authorization>false</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-02 12:32:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>67e9da904f1262002ed2bc511310c794</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>getMarker</sys_name>
+        <sys_package display_value="Hackathon Bioreactor" source="x_poag_hackathon_b">fe44c65e378a9a00e71698a543990e44</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Hackathon Bioreactor">fe44c65e378a9a00e71698a543990e44</sys_scope>
+        <sys_update_name>sys_ws_operation_67e9da904f1262002ed2bc511310c794</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-11 16:08:46</sys_updated_on>
+        <web_service_definition display_value="Bioreactor">1f12a29a37ca9a00e71698a543990e69</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>

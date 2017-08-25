@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_poag_hackathon_b_interaction_point" label="Marker" max_length="40" name="x_poag_hackathon_b_marker" type="collection">
+        <element label="PositionScale" max_length="20" name="positionscale" type="decimal"/>
+        <element label="SizeScale" max_length="20" name="sizescale" type="decimal"/>
+    </element>
+</database>

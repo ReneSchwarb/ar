@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="sizescale" label="SizeScale" language="en" table="x_poag_hackathon_b_marker">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>sizescale</element>
+            <help/>
+            <hint/>
+            <label>SizeScale</label>
+            <language>en</language>
+            <name>x_poag_hackathon_b_marker</name>
+            <plural>SizeScales</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-11 16:02:16</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>1f520f764fb872402ed2bc511310c7d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>SizeScale</sys_name>
+            <sys_package display_value="Hackathon Bioreactor" source="x_poag_hackathon_b">fe44c65e378a9a00e71698a543990e44</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Hackathon Bioreactor">fe44c65e378a9a00e71698a543990e44</sys_scope>
+            <sys_update_name>sys_documentation_x_poag_hackathon_b_marker_sizescale_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-11 16:02:16</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

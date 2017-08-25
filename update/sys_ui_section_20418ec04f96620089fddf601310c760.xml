@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="20418ec04f96620089fddf601310c760" sys_domain="global" table="x_poag_hackathon_b_interaction_point" version="3" view="diagrammer">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-10-01 15:37:33</sys_created_on>
+            <sys_id>24418ec04f96620089fddf601310c760</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_poag_hackathon_b_interaction_point" sys_domain="global" view="290a30b2dd3131009190bcc50a765109">20418ec04f96620089fddf601310c760</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-10-01 15:37:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>id</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-10-01 15:37:33</sys_created_on>
+            <sys_id>a4418ec04f96620089fddf601310c760</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_poag_hackathon_b_interaction_point" sys_domain="global" view="290a30b2dd3131009190bcc50a765109">20418ec04f96620089fddf601310c760</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-10-01 15:37:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>xpos</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-10-01 15:37:33</sys_created_on>
+            <sys_id>28418ec04f96620089fddf601310c760</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_poag_hackathon_b_interaction_point" sys_domain="global" view="290a30b2dd3131009190bcc50a765109">20418ec04f96620089fddf601310c760</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-10-01 15:37:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ypos</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-10-01 15:37:33</sys_created_on>
+            <sys_id>a8418ec04f96620089fddf601310c760</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_poag_hackathon_b_interaction_point" sys_domain="global" view="290a30b2dd3131009190bcc50a765109">20418ec04f96620089fddf601310c760</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-10-01 15:37:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>zpos</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-10-01 15:37:33</sys_created_on>
+            <sys_id>2c418ec04f96620089fddf601310c760</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_poag_hackathon_b_interaction_point" sys_domain="global" view="290a30b2dd3131009190bcc50a765109">20418ec04f96620089fddf601310c760</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-10-01 15:37:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-10-01 15:37:33</sys_created_on>
+            <sys_id>ac418ec04f96620089fddf601310c760</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_poag_hackathon_b_interaction_point" sys_domain="global" view="290a30b2dd3131009190bcc50a765109">20418ec04f96620089fddf601310c760</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-10-01 15:37:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>symbol</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-10-01 15:37:33</sys_created_on>
+            <sys_id>20418ec04f96620089fddf601310c761</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_poag_hackathon_b_interaction_point" sys_domain="global" view="290a30b2dd3131009190bcc50a765109">20418ec04f96620089fddf601310c760</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-10-01 15:37:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_poag_hackathon_b_interaction_point</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-10-01 15:37:33</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>20418ec04f96620089fddf601310c760</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_poag_hackathon_b_interaction_point</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Hackathon Bioreactor" source="x_poag_hackathon_b">fe44c65e378a9a00e71698a543990e44</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Hackathon Bioreactor">fe44c65e378a9a00e71698a543990e44</sys_scope>
+            <sys_update_name>sys_ui_section_20418ec04f96620089fddf601310c760</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-10-01 15:37:33</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Diagrammer" name="diagrammer">290a30b2dd3131009190bcc50a765109</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Device Instance" max_length="40" name="x_poag_hackathon_b_device_instance" type="collection">
+        <element label="Device" max_length="32" name="device" reference="x_poag_hackathon_b_ger_t" type="reference"/>
+        <element label="Domain" max_length="32" name="domain" reference="x_poag_hackathon_b_domain" type="reference"/>
+        <element label="Name" max_length="100" name="name" type="string"/>
+        <element label="QRCode" max_length="40" name="qrcode" type="user_image"/>
+        <index name="index">
+            <element name="domain"/>
+        </index>
+        <index name="index2">
+            <element name="device"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Stirrer History" max_length="40" name="x_poag_hackathon_b_stirrer_history" sizeclass="10000" type="collection">
+        <element label="Recipe" max_length="32" name="recipe" reference="x_poag_hackathon_b_bioreactor_recipe" type="reference"/>
+        <element label="Stirrer" max_length="40" name="stirrer" type="float"/>
+        <index name="index">
+            <element name="recipe"/>
+        </index>
+    </element>
+</database>

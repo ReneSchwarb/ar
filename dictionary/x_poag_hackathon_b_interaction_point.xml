@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Interaction Point" max_length="40" name="x_poag_hackathon_b_interaction_point" type="collection">
+        <element label="Device" max_length="32" name="device" reference="x_poag_hackathon_b_ger_t" type="reference"/>
+        <element label="Id" max_length="40" name="id" type="integer"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Symbol" max_length="32" name="symbol" reference="x_poag_hackathon_b_symbol" type="reference"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element label="XPos" max_length="15" name="xpos" type="decimal"/>
+        <element label="YPos" max_length="15" name="ypos" type="decimal"/>
+        <element label="ZPos" max_length="15" name="zpos" type="decimal"/>
+        <index name="index">
+            <element name="symbol"/>
+        </index>
+        <index name="index2">
+            <element name="device"/>
+        </index>
+    </element>
+</database>

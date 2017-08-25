@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Recipe Execution" max_length="40" name="x_poag_hackathon_b_recipe_execution" type="collection">
+        <element label="Context" max_length="32" name="context" reference="wf_context" type="reference"/>
+        <element label="Current Interaction Point" max_length="32" name="current_interaction_point" reference="x_poag_hackathon_b_interaction_point" type="reference"/>
+        <element label="Current Symbol" max_length="32" name="current_symbol" reference="x_poag_hackathon_b_symbol" type="reference"/>
+        <element label="Current Text" max_length="200" name="current_text" type="string"/>
+        <element label="Current XPos" max_length="15" name="current_xpos" type="decimal"/>
+        <element label="Current YPos" max_length="15" name="current_ypos" type="decimal"/>
+        <element label="Current ZPos" max_length="15" name="current_zpos" type="decimal"/>
+        <element label="Device Instance" max_length="32" name="device_instance" reference="x_poag_hackathon_b_device_instance" type="reference"/>
+        <element label="Next" max_length="40" name="next" type="boolean"/>
+        <element label="Next Phase" max_length="40" name="next_phase" type="boolean"/>
+        <element label="QRCode" max_length="40" name="qrcode" type="user_image"/>
+        <element label="Recipe" max_length="32" name="recipe" reference="x_poag_hackathon_b_bioreactor_recipe" type="reference"/>
+        <element label="Status Text" max_length="200" name="status_text" type="string"/>
+        <element label="Wait Text" max_length="200" name="wait_text" type="string"/>
+        <index name="index">
+            <element name="device_instance"/>
+        </index>
+        <index name="index2">
+            <element name="current_symbol"/>
+        </index>
+        <index name="index3">
+            <element name="context"/>
+        </index>
+        <index name="index4">
+            <element name="recipe"/>
+        </index>
+        <index name="index5">
+            <element name="current_interaction_point"/>
+        </index>
+    </element>
+</database>

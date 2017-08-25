@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_related sys_domain="global" table="x_poag_hackathon_b_ger_t" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Device - Default view" name="x_poag_hackathon_b_ger_t" related_list="NULL" sys_domain="global" view="Default view">013575004f96620089fddf601310c7d9</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_poag_hackathon_b_device_instance.device</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-10-01 14:44:52</sys_created_on>
+            <sys_id>053575004f96620089fddf601310c7d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-10-01 14:44:52</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Device - Default view" name="x_poag_hackathon_b_ger_t" related_list="NULL" sys_domain="global" view="Default view">013575004f96620089fddf601310c7d9</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>x_poag_hackathon_b_bioreactor_recipe.device</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-10-01 14:44:53</sys_created_on>
+            <sys_id>c53575004f96620089fddf601310c7d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-10-01 14:44:53</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Device - Default view" name="x_poag_hackathon_b_ger_t" related_list="NULL" sys_domain="global" view="Default view">013575004f96620089fddf601310c7d9</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>x_poag_hackathon_b_interaction_point.device</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-10-01 14:44:53</sys_created_on>
+            <sys_id>893575004f96620089fddf601310c7d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-10-01 14:44:53</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Device - Default view" name="x_poag_hackathon_b_ger_t" related_list="NULL" sys_domain="global" view="Default view">013575004f96620089fddf601310c7d9</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>x_poag_hackathon_b_marker.device</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-10-01 14:44:53</sys_created_on>
+            <sys_id>4d3575004f96620089fddf601310c7d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-10-01 14:44:53</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Device - Default view</calculated_name>
+            <filter/>
+            <name>x_poag_hackathon_b_ger_t</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-10-01 14:44:52</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>013575004f96620089fddf601310c7d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Device - Default view</sys_name>
+            <sys_package display_value="Hackathon Bioreactor" source="x_poag_hackathon_b">fe44c65e378a9a00e71698a543990e44</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Hackathon Bioreactor">fe44c65e378a9a00e71698a543990e44</sys_scope>
+            <sys_update_name>sys_ui_related_x_poag_hackathon_b_ger_t_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-10-01 14:44:52</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

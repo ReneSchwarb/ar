@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Device" max_length="40" name="x_poag_hackathon_b_ger_t" type="collection">
+        <element label="Bild Front" max_length="40" name="bild_front" type="user_image"/>
+        <element label="Bild Links" max_length="40" name="bild_links" type="user_image"/>
+        <element label="Bild Rechts" max_length="40" name="bild_rechts" type="user_image"/>
+        <element display="true" label="Name" max_length="40" name="name" type="string"/>
+        <element label="QRCode" max_length="40" name="qrcode" type="user_image"/>
+    </element>
+</database>
